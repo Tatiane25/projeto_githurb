@@ -1,1 +1,13 @@
 aula de githurb
+--> primeiro passos, configuração
+git config --global user.nome
+git config --global user.email
+
+=> inicializando repositorio
+git init 
+=> add arquivos e salvar 
+git add .
+git commit -m "first commit"
+
+-> add repositorio remoto - githurb
+git remote add origin https://github.com/Tatiane25/projeto_githurb.git
